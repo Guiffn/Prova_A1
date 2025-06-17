@@ -1,0 +1,14 @@
+@url_base = http://localhost:5003/api/comentario
+
+
+### Cadastra
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+    "Texto": "Bebida boa",
+    "ItemId": 2
+}
+
+###
+GET {{url_base}}/listar
